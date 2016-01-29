@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "system",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "out": "bootang.js"
+    },
+    "exclude": [
+        "node_modules",
+        "js"
+    ]
+}

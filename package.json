@@ -1,0 +1,19 @@
+{
+  "name": "bootang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
+  },
+  "author": "abhakthan",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^1.0.0",
+    "lite-server": "^1.3.4",
+    "typescript": "^1.7.5"
+  }
+}
